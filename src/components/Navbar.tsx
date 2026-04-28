@@ -14,7 +14,7 @@ const Navbar: React.FC = () => {
   return (
     <nav className="fixed top-0 w-full z-50 bg-stone-50/80 dark:bg-stone-950/80 backdrop-blur-md">
       <div className="max-w-7xl mx-auto px-12 py-6 flex justify-between items-center">
-        <Link to="/" className="text-2xl font-serif italic text-stone-800 dark:text-stone-100">Glow Nail Studio</Link>
+        <Link to="/" className="text-2xl font-serif italic text-stone-800 dark:text-stone-100">Beauty Nail Studio</Link>
         <div className="hidden md:flex items-center space-x-10 font-['Noto_Serif'] font-light tracking-tight">
           <Link 
             className={isActive('/') ? "text-stone-900 dark:text-white border-b border-stone-400 dark:border-stone-500 pb-1 transition-all" : "text-stone-500 dark:text-stone-400 hover:text-stone-800 dark:hover:text-stone-200 transition-colors"} 

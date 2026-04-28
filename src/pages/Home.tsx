@@ -18,9 +18,9 @@ const Home: React.FC = () => {
         </div>
         <div className="relative z-10 max-w-7xl mx-auto px-12 grid grid-cols-1 md:grid-cols-2 gap-12">
           <div className="bg-surface/60 backdrop-blur-xl p-12 rounded-lg border border-white/10 ambient-shadow">
-            <span className="font-label text-xs uppercase tracking-[0.2em] text-primary mb-6 block">Kuala Lumpur • Nail Salon</span>
+            <span className="font-label text-xs uppercase tracking-[0.2em] text-primary mb-6 block">Kuala Lumpur • Beauty Nail Studio</span>
             <h1 className="font-headline text-5xl md:text-7xl text-on-surface leading-tight mb-8">
-              Nail Salon Studio— <br/><span className="italic font-light">Premium Artistry</span>
+              Beauty Nail Studio— <br/><span className="italic font-light">Premium Artistry</span>
             </h1>
             <p className="text-on-surface-variant text-lg mb-12 max-w-md leading-relaxed font-light">
               Elevated gel nails and meticulous manicures in the heart of Kuala Lumpur. We define beauty through precision and tranquility.
@@ -105,7 +105,7 @@ const Home: React.FC = () => {
           <Quote className="text-primary w-12 h-12 mb-12 mx-auto" fill="currentColor" />
           <div className="mb-16">
             <p className="font-headline text-3xl md:text-4xl text-on-surface leading-relaxed italic font-light mb-10">
-              "The most serene experience I've had in Kuala Lumpur. Glow doesn't just do nails; they curate a moment of absolute peace. My gel set lasted four weeks without a single chip."
+              "The most serene experience I've had in Kuala Lumpur. Beauty Nail Studio doesn't just do nails; they curate a moment of absolute peace. My gel set lasted four weeks without a single chip."
             </p>
             <div>
               <p className="font-label text-sm uppercase tracking-[0.2em] font-semibold text-on-surface mb-1">Sophia Chen</p>

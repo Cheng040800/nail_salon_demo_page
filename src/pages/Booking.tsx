@@ -116,7 +116,7 @@ const Booking: React.FC = () => {
           <p className="text-on-surface-variant font-light mb-8">
             Thank you, <span className="font-semibold text-on-surface">{formData.name}</span>. Your appointment for <span className="font-semibold text-on-surface">{selectedService?.name}</span> is set for <span className="font-semibold text-on-surface">{format(selectedDate, 'EEEE, MMM do')}</span> at <span className="font-semibold text-on-surface">{selectedTime}</span>.
           </p>
-          <p className="text-sm text-outline mb-12 italic">A confirmation detail has been sent to your phone. See you soon at Glow Studio.</p>
+          <p className="text-sm text-outline mb-12 italic">A confirmation detail has been sent to your phone. See you soon at Beauty Nail Studio.</p>
           <button 
             onClick={() => window.location.href = '/'}
             className="w-full py-4 rounded-md bg-primary text-on-primary font-label uppercase tracking-widest text-sm"

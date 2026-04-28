@@ -103,7 +103,7 @@ const AdminDashboard: React.FC = () => {
       {/* SideNavBar Shell */}
       <aside className="fixed left-0 top-0 h-screen w-72 flex flex-col bg-surface-container-low dark:bg-stone-900 border-none space-y-8 pt-32 pb-12 px-8 z-40">
         <div className="mb-10 px-4">
-          <span className="font-serif italic text-2xl text-on-surface dark:text-white">Glow Nail Studio</span>
+          <span className="font-serif italic text-2xl text-on-surface dark:text-white">Beauty Nail Studio</span>
           <p className="font-sans text-[10px] uppercase tracking-[0.1em] font-medium text-on-surface-variant mt-1">Admin Management</p>
         </div>
         
@@ -133,7 +133,7 @@ const AdminDashboard: React.FC = () => {
           </div>
           <div>
             <p className="text-xs font-bold text-on-surface">Admin</p>
-            <p className="text-[10px] text-on-surface-variant">admin@glownail.studio</p>
+            <p className="text-[10px] text-on-surface-variant">admin@beautynail.studio</p>
           </div>
         </div>
       </aside>
@@ -146,7 +146,7 @@ const AdminDashboard: React.FC = () => {
             <span className="font-serif text-lg tracking-tight text-primary">Booking Dashboard</span>
           </div>
           <div className="flex items-center gap-8">
-            <span className="text-on-surface/60 font-sans text-[10px] uppercase tracking-[0.1em] font-medium">admin@glownail.studio</span>
+            <span className="text-on-surface/60 font-sans text-[10px] uppercase tracking-[0.1em] font-medium">admin@beautynail.studio</span>
             <button 
               onClick={handleLogout}
               className="text-primary font-sans text-[10px] uppercase tracking-[0.1em] font-bold hover:opacity-80 transition-all active:scale-95"

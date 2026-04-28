@@ -40,7 +40,7 @@ const AdminLogin: React.FC = () => {
         >
           <span className="font-label text-[10px] uppercase tracking-[0.2em] text-primary/70 block mb-3">Professional Portal</span>
           <h1 className="text-4xl md:text-5xl font-headline italic text-on-surface leading-tight tracking-tight">
-            Glow Nail Studio Admin
+            Beauty Nail Studio Admin
           </h1>
         </motion.div>
 
@@ -78,7 +78,7 @@ const AdminLogin: React.FC = () => {
                     className="w-full bg-surface-container-low border-none rounded-lg py-4 pl-12 pr-4 text-on-surface placeholder:text-outline-variant/50 focus:ring-1 focus:ring-primary/20 focus:bg-surface-container-lowest transition-all duration-300 outline-none" 
                     id="email" 
                     name="email" 
-                    placeholder="admin@glownail.studio" 
+                    placeholder="admin@beautynail.studio" 
                     required 
                     type="email"
                     value={email}
@@ -132,7 +132,7 @@ const AdminLogin: React.FC = () => {
             {/* Help Link */}
             <div className="mt-12 text-center">
               <p className="text-xs text-on-surface-variant font-light flex items-center justify-center gap-2">
-                Need assistance? <a className="text-primary font-medium hover:underline decoration-primary-container underline-offset-4" href="mailto:support@glownail.studio">Contact IT Support</a>
+                Need assistance? <a className="text-primary font-medium hover:underline decoration-primary-container underline-offset-4" href="mailto:support@beautynail.studio">Contact IT Support</a>
               </p>
             </div>
           </motion.div>
@@ -146,7 +146,7 @@ const AdminLogin: React.FC = () => {
             </p>
           </div>
           <div className="font-headline italic text-2xl text-on-surface-variant">
-            Glow
+            Beauty
           </div>
         </div>
       </main>

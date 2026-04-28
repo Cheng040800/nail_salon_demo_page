@@ -14,10 +14,10 @@ const About: React.FC = () => {
       <section className="max-w-7xl mx-auto px-12 mb-32">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-16 items-center">
           <div className="md:col-span-7">
-            <span className="font-label uppercase tracking-[0.2em] text-xs text-primary mb-6 block">The Essence of Glow</span>
+            <span className="font-label uppercase tracking-[0.2em] text-xs text-primary mb-6 block">The Essence of Beauty</span>
             <h1 className="font-headline text-6xl md:text-8xl text-on-surface leading-tight mb-12 -ml-1">Our Story</h1>
             <div className="space-y-8 max-w-xl text-lg text-on-surface-variant font-light leading-relaxed">
-              <p>Founded on the principle of intentionality, Glow Nail Studio emerged as a response to the hurried nature of modern beauty. We envisioned a space where time slows down, and the focus returns to the individual.</p>
+              <p>Founded on the principle of intentionality, Beauty Nail Studio emerged as a response to the hurried nature of modern beauty. We envisioned a space where time slows down, and the focus returns to the individual.</p>
               <p>Our journey began with a single chair and a commitment to meticulous craftsmanship. Today, we are a sanctuary for those who seek more than just a service—they seek a ritual of restoration and self-expression.</p>
             </div>
           </div>
@@ -83,7 +83,7 @@ const About: React.FC = () => {
         <div className="bg-primary-container p-16 md:p-24 rounded-lg flex flex-col md:flex-row items-center gap-16">
           <div className="flex-1">
             <h2 className="font-headline text-4xl text-on-primary-container mb-8">Philosophy in Practice</h2>
-            <p className="text-on-primary-fixed-variant leading-relaxed text-lg mb-8">Our approach is defined by the three pillars of Glow: Purity of ingredients, Precision of form, and Peace of mind.</p>
+            <p className="text-on-primary-fixed-variant leading-relaxed text-lg mb-8">Our approach is defined by the three pillars of Beauty: Purity of ingredients, Precision of form, and Peace of mind.</p>
             <Link className="inline-flex items-center text-on-primary-container border-b border-on-primary-container pb-1 hover:opacity-70 transition-opacity uppercase text-xs tracking-widest font-bold" to="/services">Discover our services</Link>
           </div>
           <div className="flex-1 w-full grid grid-cols-2 gap-4">
